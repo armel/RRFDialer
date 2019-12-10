@@ -190,7 +190,7 @@ this.DTMF = function(t) {
 $(".js-dtmf-interface li").on("mousedown touchstart", function(e){
     e.preventDefault();
 
-    var sender = new DTMF.Sender({ duration: 150, pause: 50 });
+    var sender = new DTMF.Sender({ duration: 100, pause: 25 });
     var keyPressed = $(this).html(); // this gets the number/character that was pressed
     var frequencyPair;
 
