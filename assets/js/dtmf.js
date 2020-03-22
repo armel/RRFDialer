@@ -201,16 +201,16 @@ $(".js-dtmf-interface li").on("mousedown touchstart", function(e){
         case 'FON 97':
             keyPressed = '97';
             break;
-        case 'TEC 98':
+        case 'TECHNIQUE 98':
             keyPressed = '98';
             break;
-        case 'INT 99':
+        case 'INTERNATIONAL 99':
             keyPressed = '99';
             break;
-        case 'BAV 100':
+        case 'BAVARDAGE 100':
             keyPressed = '100';
             break;
-        case 'LOC 101':
+        case 'LOCAL 101':
             keyPressed = '101';
             break;
     }

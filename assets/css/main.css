@@ -2,22 +2,23 @@
 
 body{
   background: #f8f8f8;
-  font-family:Karla, sans-serif;
+  font-family:Arial, sans-serif;
+  font-size: 12px;
 }
 
 .wrapper{
-	width:350px;
-	height:310px;
+	width:480px;
+	height:380px;
 	position:absolute;
 	left:50%;
 	top:50%;
-	margin:-200px 0 0 -125px;
+	margin:-320px 0 0 -240px;
   text-align:center;
 }
 
 
 .dtmf-interface{
-  width:350px;
+  width:480px;
   margin:0;
   padding:0;
   overflow:hidden;
@@ -27,11 +28,10 @@ body{
   float:left;
   margin:10px;
   list-style:none;
-  width:60px;
+  width:128px;
   height:30px;
   text-align:center;
   line-height:30px;
-  font-size: 14px;
   border: solid 1px #333;
   border-radius:3px;
   padding:5px;
@@ -39,14 +39,21 @@ body{
 }
 
 .dtmf-interface li:hover{
-  color: #3cd9fd;
-  border-color:#3cd9fd;
+  background-color: green;
   transition-duration:0s;
   cursor:pointer;
 }
 
 .dtmf-interface li:active{
-  color: #f60;
-  border-color:#f60;
+  background-color: red;
   transition-duration:0s;
+}
+
+.information {
+  text-align: left;
+  border-top: 1px dotted black;
+}
+
+.information ol {
+  padding-left: 16px;
 }
