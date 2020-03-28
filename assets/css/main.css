@@ -3,22 +3,23 @@
 body{
   background: #f8f8f8;
   font-family:Arial, sans-serif;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .wrapper{
-	width:480px;
+	width:348px;
 	height:380px;
 	position:absolute;
 	left:50%;
 	top:50%;
-	margin:-240px 0 0 -240px;
+	margin:-174px 0 0 -174px;
   text-align:center;
+  border: 1px dotted #000;
 }
 
 
 .dtmf-interface{
-  width:480px;
+  width:400px;
   margin:0;
   padding:0;
   overflow:hidden;
@@ -28,7 +29,7 @@ body{
   float:left;
   margin:2px;
   list-style:none;
-  width:120px;
+  width:100px;
   height:20px;
   text-align:center;
   line-height:20px;
