@@ -12,7 +12,7 @@ body{
 	position:absolute;
 	left:50%;
 	top:50%;
-	margin:-320px 0 0 -240px;
+	margin:-240px 0 0 -240px;
   text-align:center;
 }
 
@@ -26,7 +26,7 @@ body{
 
 .dtmf-interface li{
   float:left;
-  margin:10px;
+  margin:2px;
   list-style:none;
   width:128px;
   height:30px;
@@ -51,7 +51,6 @@ body{
 
 .information {
   text-align: left;
-  border-top: 1px dotted black;
 }
 
 .information ol {
