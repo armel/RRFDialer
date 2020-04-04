@@ -213,6 +213,15 @@ $(".js-dtmf-interface li").on("mousedown touchstart", function(e){
         case 'LOCAL 101':
             keyPressed = '101';
             break;
+        case 'RAPTOR 200':
+            keyPressed = '200';
+            break;
+        case 'RAPTOR SCAN 201':
+            keyPressed = '201';
+            break;
+        case 'IP 93':
+            keyPressed = '93';
+            break;
     }
 
     sender.play(keyPressed);
