@@ -190,7 +190,8 @@ this.DTMF = function(t) {
 $(".js-dtmf-interface li").on("mousedown touchstart", function(e){
     e.preventDefault();
 
-    var sender = new DTMF.Sender({ duration: 100, pause: 100 });
+    var sender = new DTMF.Sender({ duration: 100, pause: 100 }); 
+    var sender = new DTMF.Sender({ duration: 100, pause: 100 }); // Yes, play 2 times...
     var keyPressed = $(this).html(); // this gets the number/character that was pressed
     var frequencyPair;
 
